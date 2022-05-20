@@ -12,11 +12,12 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <livewire:styles />
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
-<body class="font-sans bg-gray-background text-gray-900 text-sm">
+    <body class="font-sans bg-gray-background text-gray-900 text-sm">
 <header class="flex flex-col md:flex-row items-center justify-between px-8 py-4">
     <a href="#"><img src="{{ asset('img/logo.svg') }}" alt="logo"></a>
     <div class="flex items-center mt-2 md:mt-0">
@@ -118,5 +119,6 @@
         </div>
     </div>
 </main>
+<livewire:scripts />
 </body>
 </html>
